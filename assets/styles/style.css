@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    &::selection{
+        background-color: black;
+        color: red;
+
+    }
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color:  #2B2B2B;
+
+    color: white;
+
+    font-family: "WorkSans";
+
+}
+
+.container{
+    width: 100%;
+    max-width: 1050px;
+
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+
+.container-max{
+    width: 100%;
+    max-width: 1180px;
+
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+
+
+.header {
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0 20px 0;
+
+}
+.logo {
+}
+.menu { 
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+        
+    a{
+
+    font-size: 16px;
+    font-weight: 600;
+
+    }
+}
+.btn1 {
+
+    background-color:#A259FF;
+    color: white;
+
+    font-family: "WorkSans";
+    font-size: 16px;
+    font-weight: 600;
+
+    max-width: max-content;
+
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    padding: 20px 30px;
+    border-radius: 30px;
+
+}
+
+.weenf{
+    border-radius: 20px 20px 0 0;
+
+}
+
+
+.hero__wrap {
+
+display: flex;
+gap: 30px;
+}
+.hero__left {
+    
+    display: flex;
+    gap: 30px;
+
+    flex-direction: column;
+    align-items: start;
+    
+
+    h1{
+        font-family: "WorkSans";
+        font-weight: 600;
+        font-size: 67px;
+
+        text-transform: capitalize;
+
+    }
+
+    p{
+        font-size: 22px;
+
+    }
+
+}
+.hero__inner {
+    display: flex;
+    gap: 60px;
+
+}
+.hero__box {
+}
+.hero__right {
+}
+.hero__img {
+}
+.hero__content {
+    background-color: #3B3B3B;
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px 22px;
+
+    gap: 10px;
+    h5{
+        
+
+
+    }
+
+    span{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        margin: 10px 0 0 0;
+
+    }
+
+}
