@@ -12,6 +12,16 @@
 
 }
 
+button{
+    cursor: pointer;
+
+}
+
+section{
+    padding: 80px 0;
+
+}
+
 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -19,12 +29,27 @@ a{
 }
 
 body{
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
     background-color:  #2B2B2B;
 
     color: white;
 
     font-family: "WorkSans";
+
+}
+
+.section-title{
+    font-size: 38px;
+    font-weight: 600;
+
+
+
+}
+
+.subtitle{
+    font-size: 22px;
+    font-weight: 400;
+
 
 }
 
@@ -49,8 +74,7 @@ body{
 
 
 
-.header {
-}
+
 
 .nav {
     display: flex;
@@ -60,8 +84,7 @@ body{
     padding: 20px 0 20px 0;
 
 }
-.logo {
-}
+
 .menu { 
     display: flex;
     gap: 50px;
@@ -96,6 +119,27 @@ body{
     padding: 20px 30px;
     border-radius: 30px;
 
+}
+
+.btn2 {
+    background-color:transparent;
+    color: white;
+
+    font-family: "WorkSans";
+    font-size: 16px;
+    font-weight: 600;
+
+    max-width: max-content;
+
+    border: 1px solid #A259FF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    padding: 20px 30px;
+    border-radius: 30px;
 }
 
 .weenf{
@@ -138,12 +182,7 @@ gap: 30px;
     gap: 60px;
 
 }
-.hero__box {
-}
-.hero__right {
-}
-.hero__img {
-}
+
 .hero__content {
     background-color: #3B3B3B;
     display: flex;
@@ -166,5 +205,106 @@ gap: 30px;
         margin: 10px 0 0 0;
 
     }
+
+}
+
+/* creators */
+
+.creators {
+}
+.contaioner {
+}
+.creators__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.cteators__info-box {
+
+
+}
+.h2-section-title {
+}
+.sectiom-subtitle {
+}
+
+.creators__wrapper {
+    display: flex;
+    gap: 30px;
+
+    margin: 60px 0 0 0;
+
+    flex-wrap: wrap;
+}
+.creators__card {
+    background-color: #3b3b3b;
+    padding: 20px;
+
+    text-align: center;
+
+    border-radius: 20px;
+
+    width: 240px;
+
+    h5{
+        position: absolute;
+
+        background-color: #2B2B2B;
+
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}
+
+/* trend */
+
+.trend {
+    
+
+}
+
+.trend__card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container {
+}
+.section-title {
+    margin: 0 0 10px 0;
+}
+.subtitle {
+}
+.trend__wrapper {
+    display: flex;
+    gap: 30px;
+    padding: 80px 0 0 0;
+}
+
+.trend__big-img {
+}
+.trend__box {
+    display: flex;
+    gap: 15px;
+}
+.trend__card-name {
+}
+.trend__card-auther {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn2{
+
+
 
 }
